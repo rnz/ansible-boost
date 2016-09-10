@@ -45,6 +45,6 @@
 - name: Make Boost
   command: chdir={{ boost_work_dir }}/{{ boost_build_dir }} ./b2
 
-- name: Insall Boost
+- name: Install Boost
   sudo: yes
   command: chdir={{ boost_work_dir }}/{{ boost_build_dir }} ./b2 install
